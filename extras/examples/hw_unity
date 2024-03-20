@@ -1,0 +1,44 @@
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+#LAUNCHER export LAUNCHER_CORES_PER_TASK=2
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+#LAUNCHER export LAUNCHER_CORES_PER_TASK=4
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+#LAUNCHER export LAUNCHER_CORES_PER_TASK=4
+#LAUNCHER wait
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s
+sleep 30s

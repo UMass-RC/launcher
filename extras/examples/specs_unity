@@ -1,0 +1,25 @@
+#LAUNCHER export LAUNCHER_CORES_PER_TASK=1
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test1.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test1.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test1.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test1.log
+#LAUNCHER export LAUNCHER_CORES_PER_TASK=2
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test2.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test2.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test2.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test2.log
+#LAUNCHER export LAUNCHER_CORES_PER_TASK=3
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test3.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test3.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test3.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test3.log
+#LAUNCHER export LAUNCHER_CORES_PER_TASK=4
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test4.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test4.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test4.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test4.log
+#LAUNCHER export LAUNCHER_CORES_PER_TASK=5
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test5.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test5.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test5.log
+python /home/ckenyon_umassd_edu/launcher/extras/examples/specs.py >> test5.log
