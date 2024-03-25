@@ -4,7 +4,7 @@ while read -r line
 do 
   if [[ ${line:0:9} == "#LAUNCHER" ]]
   then 
-    cmd=$(echo $line | cut -d" " -f2)
+    cmd=$(echo $line | cut -d" " -f2-)
     eval $cmd
   elif [[ -z "${MEM_PER_TASK}" ]]
   then
