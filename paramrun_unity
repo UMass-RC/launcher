@@ -9,8 +9,8 @@
 # 
 # $LAUNCHER_DIR/paramrun
 
-LAUNCHER_WAIT=0
-LAUNCHER_PROCS_PER_TASK=1
+# LAUNCHER_WAIT=0
+LAUNCHER_CORES_PER_TASK=1
 #LAUNCHER_MEM_PER_TASK=0
 LAUNCHER_CORES_TOTAL=$SLURM_CPUS
 
@@ -35,7 +35,7 @@ fi
 
 echo "------------- SUMMARY ---------------"
 echo "   Working directory:  $LAUNCHER_WORKDIR"
-echo "   Total processes:    $LAUNCHER_NPROCS"
+echo "   Total processes:    $LAUNCHER_CORES_TOTAL"
 echo "   Total jobs:         $LAUNCHER_NJOBS"
 echo
 echo "-------------------------------------"

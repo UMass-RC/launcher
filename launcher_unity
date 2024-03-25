@@ -2,6 +2,7 @@
 
 while read -r line 
 do 
+  echo $line
   if [[ ${line:0:9} == "#LAUNCHER" ]]
   then 
     cmd=$(echo $line | cut -d" " -f2-)
@@ -15,5 +16,7 @@ do
   else
     echo "srun -n 1 -c $LAUNCHER_CORES_PER_TASK --mem=$MEM_PER_TASK $line"
     srun -n 1 -c $LAUNCHER_CORES_PER_TASK --mem=$MEM_PER_TASK $line &
+    echo "task launched!"
   fi
+  # sleep 1 # be nice to slurm
 done < $1
