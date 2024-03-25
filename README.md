@@ -28,5 +28,11 @@ Note: you can also use the launcher to run a sequence of serial jobs when you ha
 Launcher on Unity relies entirely on the Unity SLURM install
 
 
+## Features still waiting to be added:
+
+* More detailed set of examples
+* A better model of how jobsteps are created and used.
+* Enviornment setup tools
+
 ## Referencing Launcher
 If you are using Launcher, please remember to make a reference to it when publishing results. The file `paper/paper.bib` contains the BibTeX-formatted citation list. Please reference entry `Wilson:2014:LSF:2616498.2616533` (i.e., in LaTeX: `\cite{Wilson:2014:LSF:2616498.2616534}`).
